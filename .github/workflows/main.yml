@@ -29,7 +29,7 @@ jobs:
       with:
         arch: arm64
         compiler: clang/15
-        defconfig: vendor/sweet2.config sweet2_defconfig
+        defconfig: sweet2_defconfig vendor/sweet2.config
         image: Image
 
     - name: Release build
