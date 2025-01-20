@@ -28,7 +28,7 @@ jobs:
         NAME: Positron
       with:
         arch: arm64
-        compiler: clang-r416183b
+        compiler: clang/14
         defconfig: sweet2_defconfig vendor/sweet2.config
         image: Image
 
