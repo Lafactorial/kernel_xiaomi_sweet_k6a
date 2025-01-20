@@ -22,7 +22,7 @@ jobs:
         path: zipper
 
     - name: Android kernel build
-      uses: Lafactorial/android-kernel-actions@master
+      uses: Lafactorial/android-kernel-actions@sister
       id: build
       env:
         NAME: Positron
